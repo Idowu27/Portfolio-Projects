@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naomi Idowu.</title>
+  <link rel="stylesheet" type="text/css" href="pages_stylesheets/weather_app_style.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
+</head>
+<body>
+  <div id='box'>
+  <div class="info1">
+    <div class="left">
+      <div class="imgs"><img class=" cloudy-img" src="http://res.cloudinary.com/pandaapple27/image/upload/v1503096753/cloud-icon_pje4tg.png"></div>
+      <p class="status">Cloudy</p>
+    </div>
+    <div class="right">
+      <ul>
+      <li class="city">Moscow</li>
+      <li class="country">Russia</li>
+      <li class="temp">-10&deg;</li>
+  </ul>
+    </div>
+
+  </div>
+  <div class="info2">
+    <div class="left">
+      <div class="imgs"><img class="sunny-img"src="http://res.cloudinary.com/pandaapple27/image/upload/v1503096753/sun-icon_htemzy.png"></div>
+      <p class="status">Sunny</p>
+    </div>
+    <div class="right">
+      <ul>
+      <li class="city">Rio</li>
+      <li class="country">Brazil</li>
+      <li class="temp">31&deg;</li>
+      </ul>
+    </div>
+  </div>
+  <div class="info3">
+    <div class="left">
+      <div class='imgs'><img class="rainy-img"src="http://res.cloudinary.com/pandaapple27/image/upload/v1503096753/rain-icon_e7p6nn.png"></div>
+
+      <p class="status">Rainy</p>
+    </div>
+    <div class="right">
+      <ul>
+      <li class="city">London</li>
+      <li class="country">England</li>
+      <li class="temp">9&deg;</li>
+      </ul>
+    </div>
+  </div>
+  <div id="add">
+      <div id="plus">
+        <div id="line1"></div>
+        <div id="line2"></div>
+        </div>
+    <p>Add More Widgets</p>
+  </div>
+
+  <div id="search-box" class="fadeIn">
+    <button id="exit">Exit</button>
+    <div id="search-decor">
+      <input type="text" id="find" placeholder="Type in a City">
+			<button type="submit" id ="search_btn">Click</button>
+      <p id="content"></p>
+    </div>
+  </div>
+</div>
+<script src="pages_scripts/weather_app_script.js"></script>
+</body>
+</html>

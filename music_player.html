@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Music Player</title>
+<link href="pages_stylesheets/music_style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div id="music-player">
+		<div id="album-cover">
+		  <div id="nav-menu">
+			  <div id="burger">
+				<span></span>
+				<span></span>
+				<span></span>
+  			 </div>
+  			 <ul class="hidden">
+  <li><a href="#">New Releases</a></li>
+  <li><a href="#">Featured Playlists</a></li>
+  <li><a href="#">Categories</a></li>
+  <li><a href="#">Home</a></li>
+</ul>
+
+  			 <label class="search">
+  			 	<input id="search-icon" type="text">
+  			 </label>
+			</div>
+			<img src="pages_assets/img/album-cover.jpg">
+			<div class="add-circle">
+				<a class="plus add" title="Add" href="#"></a>
+			</div>
+			<div id="song-playing">
+				<h4 id="song-title">CRYSTALLIZED</h4>
+				<p id="artist">YOUNG THE GIANT</p>
+			</div>
+			<div id="music-time">
+				<span id="time-past">1:35</span>
+				<div id="time-bar-past"></div>
+				<div id="time-bar">
+
+				</div>
+
+				<span id="total-time">4:01</span>
+			</div>
+			<div id="music-btns">
+				<i class="fa fa-backward stretch" aria-hidden="true"></i>
+				<i class="fa fa-play-circle" aria-hidden="true"></i>
+				<i class="fa fa-forward stretch" aria-hidden="true"></i>
+			</div>
+			<div id="other-btns">
+				<i class="fa fa-random" aria-hidden="true"></i>
+				<i class="fa fa-repeat" aria-hidden="true"></i>
+				<i class="fa fa-volume-up" aria-hidden="true"></i>
+			</div>
+		</div>
+	</div>
+<script src="pages_scripts/music_scripts.js"></script>
+</body>
+</html>
