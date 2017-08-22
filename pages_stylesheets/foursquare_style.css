@@ -1,0 +1,148 @@
+html{
+  background: #FCF1E7;
+  font-family: 'Roboto Slab', serif;
+}
+
+
+#title{
+  text-align:center;
+  font-family: 'Shadows Into Light Two', cursive;
+  letter-spacing: 2px;
+  font-size: 40px;
+}
+
+#search-box{
+  text-align:center;
+
+
+}
+
+#find{
+  border: 1px solid #1C173B;
+  background:transparent;
+  width: 400px;
+  height: 30px;
+  border-radius: 25px;
+  color: #EF5E41;
+}
+#find:focus{
+  outline:none;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  position:relative;
+  left: 20px;
+  color: #EF5E41;
+  font-family: 'Roboto Slab', serif;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  position:relative;
+  left: 20px;
+  color: #EF5E41;
+  font-family: 'Roboto Slab', serif;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  position:relative;
+  left: 20px;
+  color: #EF5E41;
+  font-family: 'Roboto Slab', serif;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  position:relative;
+  left: 20px;
+  color: #EF5E41;
+  font-family: 'Roboto Slab', serif;
+}
+
+button{
+  border: 1px solid #1C173B;
+  position: relative;
+  top: 8px;
+  left: 30px;
+  background:transparent;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+}
+
+button:after{
+  content: "";
+  position:absolute;
+  border-radius: 3px;
+  top: 20px;
+  left: 30px;
+   border: 1px solid #1C173B;
+    height: 15px;
+  width: 0px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+button:hover{
+  border: 1px solid #EF5E41;
+  cursor:pointer;
+}
+button:hover:after{
+  border: 1px solid #EF5E41;
+  cursor:pointer;
+
+}
+
+button:focus, button:focus:after{
+  outline:none;
+}
+
+#content p {
+  text-align:center;
+
+}
+
+.box{
+  width: 200px;
+  height:200px;
+  border: 1px solid #1C173B;
+  margin:auto;
+  float:left;
+  margin: 25px 100px;
+  color:#EF5E41;
+  background:#1C173B;
+}
+
+.box:hover{
+  border: 1px solid #1C173B;
+  background:#EF5E41;
+  color:#1C173B;
+
+
+}
+
+.box:hover h2{
+  display: none;
+
+}
+
+.number{
+  color: #fff;
+  text-align:center;
+  position:relative;
+  top:10%;
+  font-size: 50px;
+}
+
+
+
+.hidden-text{
+  color:#fff;
+ display:none;
+  margin-top: 40px;
+
+
+}
+
+.box:hover .hidden-text{
+  display: initial;
+  color: #1C173B;
+  margin-top: 40px;
+
+
+}
